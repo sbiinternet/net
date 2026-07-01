@@ -1,0 +1,936 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SBI INTERNET</title>
+
+<link rel="icon" href="logo.jpg">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0B1120;
+color:#fff;
+overflow-x:hidden;
+}
+
+body::before{
+content:"";
+position:fixed;
+width:100%;
+height:100%;
+background:url(background.jpg) center/cover no-repeat;
+filter:blur(5px);
+z-index:-2;
+}
+
+body::after{
+content:"";
+position:fixed;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.65);
+z-index:-1;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(15,23,42,.7);
+backdrop-filter:blur(18px);
+z-index:999;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+font-size:28px;
+font-weight:bold;
+color:#00E5FF;
+}
+
+.logo img{
+width:55px;
+height:55px;
+border-radius:50%;
+}
+
+nav{
+display:flex;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:#fff;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00E5FF;
+}
+
+.menu-btn{
+display:none;
+font-size:30px;
+cursor:pointer;
+}
+
+.notice{
+margin-top:90px;
+background:#00C3FF;
+color:#000;
+padding:12px;
+font-weight:bold;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.glass{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.1);
+border-radius:20px;
+padding:40px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:#00C3FF;
+color:#fff;
+text-decoration:none;
+border-radius:10px;
+margin-top:20px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+background:#0099ff;
+}
+
+.title{
+text-align:center;
+font-size:38px;
+margin:50px 0 30px;
+color:#00E5FF;
+}
+
+.packages{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:20px;
+}
+
+.card{
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px cyan;
+}
+
+@media(max-width:768px){
+
+.menu-btn{
+display:block;
+}
+
+nav{
+display:none;
+flex-direction:column;
+position:absolute;
+top:80px;
+right:15px;
+background:#111827;
+padding:20px;
+border-radius:15px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="logo.jpg">
+
+<span>SBI INTERNET</span>
+
+</div>
+
+<div class="menu-btn" onclick="menu()">
+
+☰
+
+</div>
+
+<nav id="menu">
+
+<a href="#">Home</a>
+
+<a href="#package">Package</a>
+
+<a href="#payment">Payment</a>
+
+<a href="livetv.html">Live TV</a>
+
+<a href="#coverage">Coverage</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header><div class="notice">
+
+<marquee behavior="scroll" direction="left">
+
+📢 প্রিয় গ্রাহক, আমাদের সকল সম্মানিত গ্রাহকদের অবগতির জন্য জানানো যাচ্ছে যে, আপনারা আপনাদের ইন্টারনেট বিল সঠিক সময়ে নিজ দায়িত্বে পরিশোধ করুন। অন্যথায় আপনার ইন্টারনেট সংযোগ সার্ভার থেকে স্বয়ংক্রিয়ভাবে বিচ্ছিন্ন হবে। দয়া করে বিল বিকাশ অথবা অফিসে এসে পরিশোধ করুন। 💳 বিকাশ নম্বর: 01643473915 | 📞 যোগাযোগ: 01643473915 / 01643473914 | ❤️ ধন্যবাদ — SBI INTERNET
+
+</marquee>
+
+</div>
+
+<section class="hero">
+
+<div class="glass">
+
+<h1 style="font-size:55px;color:#00E5FF;">
+
+Welcome To
+
+<br>
+
+SBI INTERNET
+
+</h1>
+
+<p style="font-size:20px;margin-top:20px;">
+
+Unlimited High Speed Broadband Internet Service
+
+</p>
+
+<a href="#package" class="btn">
+
+View Packages
+
+</a>
+
+<a href="livetv.html" class="btn">
+
+📺 Live TV
+
+</a>
+
+</div>
+
+</section>
+
+<section style="padding:50px;">
+
+<h2 class="title">
+
+Gallery
+
+</h2>
+
+<div class="glass">
+
+<img id="slider"
+
+src="background.jpg"
+
+style="width:100%;
+height:500px;
+object-fit:cover;
+border-radius:20px;">
+
+</div>
+
+</section>
+
+<div id="loader">
+
+<div class="loader"></div>
+
+</div>
+
+<style>
+
+#loader{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:#0B1120;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:999999;
+
+}
+
+.loader{
+
+width:70px;
+
+height:70px;
+
+border:8px solid #222;
+
+border-top:8px solid cyan;
+
+border-radius:50%;
+
+animation:spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+100%{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+</style>
+
+<script>
+
+window.onload=function(){
+
+document.getElementById("loader").style.display="none";
+
+}
+
+function menu(){
+
+let x=document.getElementById("menu");
+
+if(x.style.display=="flex"){
+
+x.style.display="none";
+
+}else{
+
+x.style.display="flex";
+
+}
+
+}
+
+const img=[
+
+"background.jpg",
+
+"sofa.jpg",
+
+"support.jpg"
+
+];
+
+let i=0;
+
+setInterval(function(){
+
+i++;
+
+if(i>=img.length){
+
+i=0;
+
+}
+
+document.getElementById("slider").src=img[i];
+
+},3000);
+
+</script><section id="package">
+
+<h2 class="title">🌐 Internet Packages</h2>
+
+<div class="packages">
+
+<div class="glass card">
+<h2>৳500</h2>
+<h3>20 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳600</h2>
+<h3>30 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳800</h2>
+<h3>40 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳1000</h2>
+<h3>60 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳1500</h2>
+<h3>80 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳1800</h2>
+<h3>90 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳2000</h2>
+<h3>100 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳2400</h2>
+<h3>120 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳2700</h2>
+<h3>135 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳3000</h2>
+<h3>150 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳3300</h2>
+<h3>165 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+<div class="glass card">
+<h2>৳4000</h2>
+<h3>200 Mbps</h3>
+<p>Unlimited Internet</p>
+<a href="#payment" class="btn">Choose Plan</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="payment">
+
+<h2 class="title">💳 Payment</h2>
+
+<div class="glass" style="max-width:700px;margin:auto;text-align:center;">
+
+<h3>bKash Payment</h3>
+
+<h1 style="color:#00E5FF;">01643473915</h1>
+
+<p><b>Reference:</b> Customer User ID</p>
+
+<br>
+
+<a href="https://fast.com" target="_blank" class="btn">
+
+⚡ Speed Test
+
+</a>
+
+</div>
+
+</section>
+
+<section id="login">
+
+<h2 class="title">👤 Customer Login</h2>
+
+<div class="glass" style="max-width:550px;margin:auto;">
+
+<input type="text" placeholder="Customer User ID"
+style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<input type="password" placeholder="Password"
+style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<button class="btn" style="width:100%;">
+
+Login
+
+</button>
+
+</div>
+
+</section>
+
+<section id="new">
+
+<h2 class="title">📝 New Connection</h2>
+
+<div class="glass" style="max-width:700px;margin:auto;">
+
+<input type="text" placeholder="Full Name"
+style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<input type="text" placeholder="Mobile Number"
+style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<input type="text" placeholder="Address"
+style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<select style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<option>Select Package</option>
+<option>20 Mbps - ৳500</option>
+<option>30 Mbps - ৳600</option>
+<option>40 Mbps - ৳800</option>
+<option>60 Mbps - ৳1000</option>
+<option>80 Mbps - ৳1500</option>
+<option>100 Mbps - ৳2000</option>
+<option>200 Mbps - ৳4000</option>
+
+</select>
+
+<button class="btn" style="width:100%;">
+
+Submit Application
+
+</button>
+
+</div>
+
+</section><!-- Coverage Area -->
+
+<section id="coverage">
+
+<h2 class="title">📍 Coverage Area</h2>
+
+<div class="packages">
+
+<div class="glass card">📍 মিরপুর-১</div>
+<div class="glass card">📍 মিরপুর-২</div>
+<div class="glass card">📍 মিরপুর-৬</div>
+<div class="glass card">📍 মিরপুর-১০</div>
+<div class="glass card">📍 মিরপুর-১১</div>
+<div class="glass card">📍 মিরপুর-১২</div>
+<div class="glass card">📍 মিরপুর-১৩</div>
+<div class="glass card">📍 মিরপুর-১৪</div>
+
+</div>
+
+</section>
+
+<!-- Server Status -->
+
+<section id="server">
+
+<h2 class="title">🟢 Server Status</h2>
+
+<div class="glass" style="max-width:700px;margin:auto;text-align:center;">
+
+<h2 style="color:lime;">ONLINE</h2>
+
+<p>Server IP : 172.20.3.1</p>
+
+<p>Network : BDIX Connected</p>
+
+<p>Uptime : 99.9%</p>
+
+</div>
+
+</section>
+
+<!-- Customer Counter -->
+
+<section>
+
+<h2 class="title">📊 SBI INTERNET</h2>
+
+<div class="packages">
+
+<div class="glass card">
+
+<h1 id="customer">0</h1>
+
+<p>Happy Customers</p>
+
+</div>
+
+<div class="glass card">
+
+<h1>24/7</h1>
+
+<p>Support</p>
+
+</div>
+
+<div class="glass card">
+
+<h1>200 Mbps</h1>
+
+<p>Maximum Speed</p>
+
+</div>
+
+<div class="glass card">
+
+<h1>99%</h1>
+
+<p>Customer Satisfaction</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Reviews -->
+
+<section>
+
+<h2 class="title">⭐ Customer Reviews</h2>
+
+<div class="packages">
+
+<div class="glass card">
+
+⭐⭐⭐⭐⭐
+
+<p>Excellent Internet Service.</p>
+
+</div>
+
+<div class="glass card">
+
+⭐⭐⭐⭐⭐
+
+<p>Very Fast & Stable Network.</p>
+
+</div>
+
+<div class="glass card">
+
+⭐⭐⭐⭐⭐
+
+<p>Best ISP in Mirpur.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section>
+
+<h2 class="title">❓ FAQ</h2>
+
+<div class="glass" style="max-width:900px;margin:auto;">
+
+<h3>কিভাবে বিল পরিশোধ করবো?</h3>
+
+<p>bKash: 01643473915 (Reference: Customer User ID)</p>
+
+<hr>
+
+<h3>নতুন সংযোগ কিভাবে নিবো?</h3>
+
+<p>নিচের Apply Form পূরণ করুন অথবা 01643473915 নম্বরে কল করুন।</p>
+
+<hr>
+
+<h3>Support Time?</h3>
+
+<p>২৪ ঘণ্টা / ৭ দিন</p>
+
+</div>
+
+</section>
+
+<script>
+
+let c=0;
+
+setInterval(function(){
+
+if(c<5000){
+
+c+=25;
+
+document.getElementById("customer").innerHTML=c+"+";
+
+}
+
+},20);
+
+</script><!-- Google Map -->
+
+<section id="map">
+
+<h2 class="title">📍 Our Location</h2>
+
+<div class="glass" style="max-width:1000px;margin:auto;">
+
+<iframe
+src="https://maps.google.com/maps?q=Mirpur,Dhaka&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="400"
+style="border:0;border-radius:15px;">
+</iframe>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact">
+
+<h2 class="title">☎ Contact Us</h2>
+
+<div class="packages">
+
+<div class="glass card">
+<h3>📞 Call</h3>
+<p>01643473915</p>
+<p>01643473914</p>
+</div>
+
+<div class="glass card">
+<h3>💬 WhatsApp</h3>
+<p>01643473915</p>
+</div>
+
+<div class="glass card">
+<h3>📧 Email</h3>
+<p>sbiinternet@gmail.com</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Floating Buttons -->
+
+<a href="https://wa.me/8801643473915" class="whatsapp" target="_blank">
+💬
+</a>
+
+<a href="tel:01643473915" class="call">
+📞
+</a>
+
+<a href="#" id="topBtn">
+⬆
+</a>
+
+<style>
+
+.whatsapp,
+.call,
+#topBtn{
+
+position:fixed;
+right:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+text-decoration:none;
+color:white;
+box-shadow:0 0 15px rgba(0,0,0,.5);
+z-index:9999;
+
+}
+
+.whatsapp{
+bottom:20px;
+background:#25D366;
+}
+
+.call{
+bottom:90px;
+background:#0EA5E9;
+}
+
+#topBtn{
+bottom:160px;
+background:#ff5722;
+display:none;
+}
+
+footer{
+
+margin-top:60px;
+padding:40px;
+background:#111827;
+text-align:center;
+
+}
+
+footer h2{
+
+color:#00E5FF;
+
+}
+
+footer p{
+
+margin:8px;
+
+color:#ddd;
+
+}
+
+.social{
+
+margin-top:20px;
+
+}
+
+.social a{
+
+display:inline-block;
+margin:10px;
+padding:12px 18px;
+background:#00C3FF;
+color:white;
+text-decoration:none;
+border-radius:8px;
+
+}
+
+</style>
+
+<footer>
+
+<h2>SBI INTERNET</h2>
+
+<p>High Speed Broadband Internet Service</p>
+
+<p>📞 01643473915 / 01643473914</p>
+
+<p>📧 sbiinternet@gmail.com</p>
+
+<p>💳 bKash : 01643473915</p>
+
+<div class="social">
+
+<a href="#">📘 Facebook</a>
+
+<a href="#">▶ YouTube</a>
+
+<a href="#">💬 Messenger</a>
+
+</div>
+
+<p style="margin-top:20px;">
+
+© 2026 SBI INTERNET. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script>
+
+let topBtn=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+if(document.documentElement.scrollTop>300){
+
+topBtn.style.display="flex";
+
+}else{
+
+topBtn.style.display="none";
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>

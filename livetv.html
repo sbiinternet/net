@@ -1,336 +1,794 @@
-﻿<div class="card">
-<h2>📺 JagoBD Live TV</h2>
-<p>বাংলাদেশের জনপ্রিয় Live TV</p>
-<a href="https://www.jagobd.com/" target="_blank" class="btn">Open</a>
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SBI INTERNET | Live TV</title>
+
+<link rel="icon" href="logo.jpg">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#07111f;
+color:white;
+overflow-x:hidden;
+
+}
+
+body::before{
+
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:url(background.jpg) center center/cover no-repeat fixed;
+filter:blur(5px);
+z-index:-2;
+
+}
+
+body::after{
+
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.75);
+z-index:-1;
+
+}
+
+header{
+
+position:sticky;
+top:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 35px;
+background:rgba(0,0,0,.45);
+backdrop-filter:blur(18px);
+border-bottom:1px solid rgba(255,255,255,.1);
+z-index:999;
+
+}
+
+.logo{
+
+display:flex;
+align-items:center;
+gap:12px;
+font-size:30px;
+font-weight:bold;
+color:#00E5FF;
+
+}
+
+.logo img{
+
+width:60px;
+height:60px;
+border-radius:50%;
+box-shadow:0 0 20px cyan;
+
+}
+
+nav a{
+
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+
+}
+
+nav a:hover{
+
+color:#00E5FF;
+
+}
+
+.notice{
+
+background:#0099ff;
+padding:12px;
+font-weight:bold;
+
+}
+
+.hero{
+
+height:70vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+
+}
+
+.hero-box{
+
+max-width:900px;
+padding:50px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(20px);
+border-radius:25px;
+box-shadow:0 0 35px rgba(0,255,255,.25);
+
+}
+
+.hero h1{
+
+font-size:60px;
+color:#00E5FF;
+text-shadow:0 0 15px cyan;
+
+}
+
+.hero p{
+
+font-size:22px;
+margin:20px 0;
+
+}
+
+.btn{
+
+display:inline-block;
+padding:15px 35px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+
+}
+
+.btn:hover{
+
+box-shadow:0 0 25px cyan;
+
+}
+
+.search{
+
+display:block;
+width:90%;
+max-width:700px;
+margin:30px auto;
+padding:15px;
+font-size:18px;
+border:none;
+border-radius:35px;
+background:rgba(255,255,255,.1);
+color:white;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+padding:30px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(18px);
+border-radius:20px;
+padding:25px;
+text-align:center;
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+box-shadow:0 0 30px cyan;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="logo.jpg">
+
+<span>SBI INTERNET</span>
+
 </div>
 
-<div class="card">
-<h2>🎬 CTG Movies</h2>
-<p>বাংলা ও হলিউড মুভি</p>
-<a href="https://ctgmovies.com/" target="_blank" class="btn">Open</a>
-</div>
+<nav>
 
-<div class="card">
-<h2>📁 Circle FTP</h2>
-<p>FTP Download Server</p>
-<a href="http://new.circleftp.net/" target="_blank" class="btn">Open</a>
-</div>
+<a href="index.html">🏠 Home</a>
 
-<div class="card">
-<h2>📁 Circle FTP 4</h2>
-<p>Mirror FTP Server</p>
-<a href="http://ftp4.circleftp.net/" target="_blank" class="btn">Open</a>
-</div>
+<a href="#live">📺 Live TV</a>
 
-<div class="card">
-<h2>⚡ Fast Speed Test</h2>
-<p>Internet Speed Check</p>
-<a href="https://fast.com/" target="_blank" class="btn">Open</a>
-</div>
+<a href="#sports">⚽ Sports</a>
 
-<div class="card">
-<h2>🌐 Speedtest</h2>
-<p>Ookla Speed Test</p>
-<a href="https://www.speedtest.net/" target="_blank" class="btn">Open</a>
-</div>
+<a href="#ftp">📁 FTP</a>
 
-<div class="card">
-<h2>▶ YouTube</h2>
-<p>ভিডিও স্ট্রিমিং</p>
-<a href="https://www.youtube.com/" target="_blank" class="btn">Open</a>
-</div>
+</nav>
 
-<div class="card">
-<h2>🎵 Spotify</h2>
-<p>Music Streaming</p>
-<a href="https://open.spotify.com/" target="_blank" class="btn">Open</a>
-</div>
+</header>
 
-<div class="card">
-<h2>📻 TuneIn Radio</h2>
-<p>Online Radio</p>
-<a href="https://tunein.com/" target="_blank" class="btn">Open</a>
-</div>
+<marquee class="notice" scrollamount="8">
 
-<div class="card">
-<h2>📺 Plex TV</h2>
-<p>Free Live TV</p>
-<a href="https://app.plex.tv/" target="_blank" class="btn">Open</a>
-</div>
+📺 Welcome to SBI INTERNET LIVE TV | ⚽ FIFA LIVE | 📁 Circle FTP | 🎬 CTG Movies | 📺 BTV Live | 📺 JagoBD | 🟢 All Servers Online
 
-<div class="card">
-<h2>🕌 Islamic TV</h2>
-<p>Islamic Live Channel</p>
-<a href="https://www.jagobd.com/" target="_blank" class="btn">Open</a>
-</div>
+</marquee>
 
-<div class="card">
-<h2>⚽ Sports Live</h2>
-<p>Sports Streaming</p>
-<a href="https://www.jagobd.com/" target="_blank" class="btn">Open</a>
-</div><div class="card">
-<h2>🎬 Movies Hub</h2>
-<p>Latest Movies Collection</p>
-<a href="https://ctgmovies.com/" target="_blank" class="btn">Open</a>
-</div>
+<section class="hero">
 
-<div class="card">
-<h2>🎥 HD Movies</h2>
-<p>HD Movie Collection</p>
-<a href="https://ctgmovies.com/" target="_blank" class="btn">Open</a>
-</div>
+<div class="hero-box">
 
-<div class="card">
-<h2>📺 Bangla TV</h2>
-<p>Bangla Live Channels</p>
-<a href="https://www.jagobd.com/" target="_blank" class="btn">Open</a>
-</div>
+<h1>📺 SBI INTERNET LIVE TV</h1>
 
-<div class="card">
-<h2>🌍 International TV</h2>
-<p>Worldwide Channels</p>
-<a href="https://www.jagobd.com/" target="_blank" class="btn">Open</a>
-</div>
+<p>
 
-<div class="card">
-<h2>📰 News TV</h2>
-<p>24/7 News Channels</p>
-<a href="https://www.jagobd.com/" target="_blank" class="btn">Open</a>
-</div>
+Watch Live TV, Sports, Movies & FTP Servers from one place.
 
-<div class="card">
-<h2>👶 Kids TV</h2>
-<p>Kids Entertainment</p>
-<a href="https://www.jagobd.com/" target="_blank" class="btn">Open</a>
-</div>
+</p>
 
-<div class="card">
-<h2>🎵 Music TV</h2>
-<p>Music Channels</p>
-<a href="https://www.jagobd.com/" target="_blank" class="btn">Open</a>
-</div>
+<a href="#live" class="btn">
 
-<div class="card">
-<h2>🎮 Game Download</h2>
-<p>Games Collection</p>
-<a href="http://new.circleftp.net/" target="_blank" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h2>💻 Software Download</h2>
-<p>Software Collection</p>
-<a href="http://new.circleftp.net/" target="_blank" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h2>📱 Android Apps</h2>
-<p>Apps Collection</p>
-<a href="http://ftp4.circleftp.net/" target="_blank" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h2>📚 eBook Library</h2>
-<p>Free eBooks</p>
-<a href="http://ftp4.circleftp.net/" target="_blank" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h2>🎞 TV Series</h2>
-<p>Latest Series</p>
-<a href="https://ctgmovies.com/" target="_blank" class="btn">Open</a>
-</div></div>
-
-<section style="padding:50px;">
-
-<h2 style="text-align:center;color:#00E5FF;margin-bottom:30px;">
-
-📞 Contact Information
-
-</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h2>📞 Call</h2>
-
-<p>01643473915</p>
-
-<p>01643473914</p>
-
-</div>
-
-<div class="card">
-
-<h2>💬 WhatsApp</h2>
-
-<p>01643473915</p>
-
-<a href="https://wa.me/8801643473915" class="btn">
-
-Chat Now
+📺 Watch Now
 
 </a>
-
-</div>
-
-<div class="card">
-
-<h2>📧 Email</h2>
-
-<p>sbiinternet@gmail.com</p>
-
-</div>
 
 </div>
 
 </section>
 
-<footer style="background:#111827;padding:40px;text-align:center;">
+<input type="text" class="search" placeholder="🔍 Search Server...">
 
-<h2 style="color:#00E5FF;">
+<h2 id="live" style="text-align:center;color:#00E5FF;font-size:40px;">
 
-SBI INTERNET
+🏆 Featured Servers
 
 </h2>
 
-<p>
+<div class="grid"><!-- FIFA LIVE -->
 
-High Speed Broadband Internet Service
+<div class="card" style="border:2px solid gold;box-shadow:0 0 30px gold;">
 
-</p>
+<span style="background:red;padding:6px 12px;border-radius:20px;font-size:14px;">
+🔴 LIVE
+</span>
 
-<br>
+<h2 style="color:gold;margin-top:15px;">
+⚽ FIFA LIVE
+</h2>
 
-<a href="index.html" class="btn">
+<p>Watch Live Football HD</p>
 
-🏠 Back To Home
-
+<a href="http://iptvidn.com/" target="_blank" class="btn">
+📺 Server 1
 </a>
 
 <br><br>
 
-<p>
+<a href="https://www.mojaloss.stream/" target="_blank" class="btn">
+⚽ Server 2
+</a>
 
-📞 01643473915 / 01643473914
+</div>
 
-</p>
+<!-- BTV Live -->
 
-<p>
+<div class="card">
 
-💳 bKash : 01643473915
+<span style="color:lime;">🟢 Online</span>
 
-</p>
+<h2>📺 BTV LIVE</h2>
 
-<p>
+<p>Bangladesh Television Official</p>
 
-📧 sbiinternet@gmail.com
+<a href="https://www.btvlive.gov.bd/" target="_blank" class="btn">
 
-</p>
-
-<br>
-
-<p>
-
-© 2026 SBI INTERNET | All Rights Reserved.
-
-</p>
-
-</footer>
-
-<a href="https://wa.me/8801643473915"
-
-class="floating-whatsapp"
-
-target="_blank">
-
-💬
+Open Server
 
 </a>
 
-<a href="#"
+</div>
 
-id="topBtn">
+<!-- JagoBD -->
 
-⬆
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>📺 JagoBD</h2>
+
+<p>Bangladesh Live TV</p>
+
+<a href="https://www.jagobd.com/" target="_blank" class="btn">
+
+Open Server
 
 </a>
+
+</div>
+
+<!-- CTG Movies -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>🎬 CTG Movies</h2>
+
+<p>Bangla & Hollywood Movies</p>
+
+<a href="https://ctgmovies.com/" target="_blank" class="btn">
+
+Open Server
+
+</a>
+
+</div>
+
+<!-- Circle FTP -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>📁 Circle FTP</h2>
+
+<p>Download Server</p>
+
+<a href="http://new.circleftp.net/" target="_blank" class="btn">
+
+Open Server
+
+</a>
+
+</div>
+
+<!-- Circle FTP 4 -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>📁 Circle FTP 4</h2>
+
+<p>Mirror Download Server</p>
+
+<a href="http://ftp4.circleftp.net/" target="_blank" class="btn">
+
+Open Server
+
+</a>
+
+</div>
+
+<!-- Mojaloss -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>⚽ Mojaloss</h2>
+
+<p>Sports Streaming Server</p>
+
+<a href="https://www.mojaloss.stream/" target="_blank" class="btn">
+
+Open Server
+
+</a>
+
+</div><!-- ================= SPORTS TV ================= -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>🏏 Sports TV</h2>
+
+<p>Live Cricket & Football</p>
+
+<a href="https://www.jagobd.com/" target="_blank" class="btn">
+
+Watch Now
+
+</a>
+
+</div>
+
+<!-- ================= NEWS TV ================= -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>📰 News TV</h2>
+
+<p>24 Hours News Channels</p>
+
+<a href="https://www.jagobd.com/" target="_blank" class="btn">
+
+Watch Now
+
+</a>
+
+</div>
+
+<!-- ================= KIDS TV ================= -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>👶 Kids TV</h2>
+
+<p>Kids Entertainment</p>
+
+<a href="https://www.jagobd.com/" target="_blank" class="btn">
+
+Watch Now
+
+</a>
+
+</div>
+
+<!-- ================= ISLAMIC TV ================= -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>🕌 Islamic TV</h2>
+
+<p>Islamic Live Channels</p>
+
+<a href="https://www.jagobd.com/" target="_blank" class="btn">
+
+Watch Now
+
+</a>
+
+</div>
+
+<!-- ================= MUSIC ================= -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>🎵 Music TV</h2>
+
+<p>Music & Entertainment</p>
+
+<a href="https://www.youtube.com/" target="_blank" class="btn">
+
+Watch Now
+
+</a>
+
+</div>
+
+<!-- ================= MOVIE ZONE ================= -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>🎬 Movie Zone</h2>
+
+<p>Bangla, Hindi & Hollywood Movies</p>
+
+<a href="https://ctgmovies.com/" target="_blank" class="btn">
+
+Watch Now
+
+</a>
+
+</div>
+
+<!-- ================= FTP DOWNLOAD ================= -->
+
+<div class="card">
+
+<span style="color:lime;">🟢 Online</span>
+
+<h2>💻 FTP Download</h2>
+
+<p>Software, Games & Movies</p>
+
+<a href="http://new.circleftp.net/" target="_blank" class="btn">
+
+Open FTP
+
+</a>
+
+</div>
+
+<!-- ================= SERVER STATUS ================= -->
+
+<div class="card">
+
+<h2 style="color:#00E5FF;">📡 Server Status</h2>
+
+<h3 style="color:lime;">🟢 ONLINE</h3>
+
+<p>Available Servers: <span id="serverCount">8+</span></p>
+
+<p>Server Health: Excellent</p>
+
+</div>
+
+<!-- ================= LIVE CLOCK ================= -->
+
+<div class="card">
+
+<h2 style="color:#00E5FF;">🕒 Bangladesh Time</h2>
+
+<h1 id="clock">00:00:00</h1>
+
+<p>Asia/Dhaka</p>
+
+</div>
+
+<script>
+
+function updateClock(){
+
+const now=new Date();
+
+document.getElementById("clock").innerHTML=
+
+now.toLocaleTimeString("en-GB",{
+
+timeZone:"Asia/Dhaka"
+
+});
+
+}
+
+setInterval(updateClock,1000);
+
+updateClock();
+
+</script></div>
 
 <style>
 
-.floating-whatsapp{
+/* Floating Buttons */
+
+.whatsapp{
 
 position:fixed;
-
-bottom:20px;
-
 right:20px;
-
+bottom:20px;
 width:60px;
-
 height:60px;
-
 background:#25D366;
-
 border-radius:50%;
-
 display:flex;
-
 justify-content:center;
-
 align-items:center;
-
-font-size:28px;
-
+font-size:30px;
 text-decoration:none;
+color:white;
+box-shadow:0 0 20px #25D366;
+z-index:999;
 
-color:#fff;
+}
 
-box-shadow:0 0 15px rgba(0,0,0,.5);
+.call{
 
-z-index:9999;
+position:fixed;
+right:20px;
+bottom:95px;
+width:60px;
+height:60px;
+background:#0099ff;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+text-decoration:none;
+color:white;
+box-shadow:0 0 20px #0099ff;
+z-index:999;
+
+}
+
+.home{
+
+position:fixed;
+right:20px;
+bottom:170px;
+width:60px;
+height:60px;
+background:#ff9800;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+text-decoration:none;
+color:white;
+box-shadow:0 0 20px orange;
+z-index:999;
 
 }
 
 #topBtn{
 
 position:fixed;
-
-bottom:95px;
-
-right:20px;
-
-width:55px;
-
-height:55px;
-
-background:#00C3FF;
-
-color:#fff;
-
+left:20px;
+bottom:20px;
+width:60px;
+height:60px;
+background:#ff1744;
 border-radius:50%;
-
 display:none;
-
 justify-content:center;
-
 align-items:center;
-
+font-size:28px;
 text-decoration:none;
+color:white;
+box-shadow:0 0 20px red;
+z-index:999;
 
-font-size:24px;
+}
+
+footer{
+
+margin-top:60px;
+padding:40px;
+background:rgba(0,0,0,.7);
+backdrop-filter:blur(15px);
+text-align:center;
+
+}
+
+footer h2{
+
+color:#00E5FF;
+margin-bottom:15px;
+
+}
+
+footer p{
+
+margin:8px 0;
+color:#ddd;
+
+}
+
+.social a{
+
+display:inline-block;
+margin:8px;
+padding:12px 20px;
+background:#00C3FF;
+color:white;
+border-radius:10px;
+text-decoration:none;
+transition:.3s;
+
+}
+
+.social a:hover{
+
+background:#007bff;
+transform:scale(1.08);
 
 }
 
 </style>
 
+<footer>
+
+<h2>📺 SBI INTERNET LIVE TV</h2>
+
+<p>Mirpur, Dhaka, Bangladesh</p>
+
+<p>📞 01643473915 | 01643473914</p>
+
+<p>💳 bKash : 01643473915</p>
+
+<p>📧 sbiinternet@gmail.com</p>
+
+<div class="social">
+
+<a href="#">📘 Facebook</a>
+
+<a href="#">▶ YouTube</a>
+
+<a href="#">💬 Messenger</a>
+
+</div>
+
+<p style="margin-top:20px;">
+
+© 2026 SBI INTERNET | All Rights Reserved
+
+</p>
+
+</footer>
+
+<a href="https://wa.me/8801643473915" class="whatsapp" target="_blank">
+💬
+</a>
+
+<a href="tel:01643473915" class="call">
+📞
+</a>
+
+<a href="index.html" class="home">
+🏠
+</a>
+
+<a href="#" id="topBtn">
+⬆
+</a>
+
 <script>
 
-let topBtn=document.getElementById("topBtn");
+/* Search */
+
+const search=document.querySelector(".search");
+
+search.addEventListener("keyup",function(){
+
+let value=this.value.toLowerCase();
+
+let cards=document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+
+card.style.display=card.innerText.toLowerCase().includes(value)
+?"block":"none";
+
+});
+
+});
+
+/* Scroll Top */
+
+const topBtn=document.getElementById("topBtn");
 
 window.onscroll=function(){
 
-if(document.documentElement.scrollTop>300){
+if(document.documentElement.scrollTop>250){
 
 topBtn.style.display="flex";
 
@@ -352,10 +810,9 @@ behavior:"smooth"
 
 });
 
-};
+}
 
 </script>
 
 </body>
-
 </html>

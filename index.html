@@ -4,14 +4,14 @@
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SBI INTERNET | High Speed Broadband Internet</title>
+<title>SBI INTERNET | High Speed Internet</title>
 
-<link rel="icon" href="logo.jpg">
+<link rel="icon" href="logo.png">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 <style>
 
@@ -24,24 +24,29 @@ scroll-behavior:smooth;
 }
 
 body{
-background:#07131f;
+
+background:#08131f;
 color:#fff;
 overflow-x:hidden;
+
 }
 
 body::before{
+
 content:"";
 position:fixed;
 top:0;
 left:0;
 width:100%;
 height:100%;
-background:url("background.jpg") center/cover no-repeat fixed;
-filter:blur(4px);
+background:url("background.jpg") center center/cover no-repeat fixed;
+filter:blur(6px);
 z-index:-2;
+
 }
 
 body::after{
+
 content:"";
 position:fixed;
 top:0;
@@ -50,114 +55,125 @@ width:100%;
 height:100%;
 background:rgba(0,0,0,.72);
 z-index:-1;
+
 }
 
 header{
+
 position:sticky;
 top:0;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 45px;
+padding:18px 50px;
 background:rgba(0,0,0,.45);
-backdrop-filter:blur(15px);
+backdrop-filter:blur(18px);
 border-bottom:1px solid rgba(255,255,255,.1);
 z-index:999;
+
 }
 
 .logo{
+
 display:flex;
 align-items:center;
 gap:12px;
-font-size:28px;
-font-weight:bold;
-color:#00E5FF;
+
 }
 
 .logo img{
-width:60px;
-height:60px;
+
+width:65px;
+height:65px;
 border-radius:50%;
 box-shadow:0 0 20px cyan;
+
+}
+
+.logo h2{
+
+color:#00E5FF;
+font-size:30px;
+
 }
 
 nav a{
-color:#fff;
+
 text-decoration:none;
-margin-left:20px;
-font-weight:600;
+color:#fff;
+margin-left:25px;
+font-weight:bold;
 transition:.3s;
+
 }
 
 nav a:hover{
+
 color:#00E5FF;
+
 }
 
 .notice{
-background:#0099ff;
+
+background:#00a2ff;
 padding:12px;
 font-weight:bold;
+
 }
 
 .hero{
-height:85vh;
+
+height:90vh;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
+
 }
 
 .hero-box{
+
 max-width:900px;
-padding:50px;
+padding:60px;
 border-radius:25px;
 background:rgba(255,255,255,.08);
-backdrop-filter:blur(18px);
-box-shadow:0 0 25px rgba(0,255,255,.2);
-animation:fade 1.2s;
+backdrop-filter:blur(20px);
+box-shadow:0 0 40px rgba(0,255,255,.25);
+
 }
 
 .hero-box h1{
-font-size:60px;
+
+font-size:65px;
 color:#00E5FF;
-margin-bottom:15px;
+
 }
 
 .hero-box p{
+
 font-size:22px;
-line-height:35px;
-color:#ddd;
-margin-bottom:30px;
+margin:20px 0;
+
 }
 
 .btn{
+
 display:inline-block;
 padding:15px 35px;
 background:linear-gradient(45deg,#00c6ff,#0072ff);
-border-radius:35px;
+border-radius:40px;
 color:#fff;
 text-decoration:none;
 font-weight:bold;
 transition:.3s;
+
 }
 
 .btn:hover{
-transform:scale(1.08);
-box-shadow:0 0 20px cyan;
-}
 
-@keyframes fade{
-
-from{
-opacity:0;
-transform:translateY(40px);
-}
-
-to{
-opacity:1;
-transform:translateY(0);
-}
+box-shadow:0 0 25px cyan;
+transform:scale(1.05);
 
 }
 
@@ -173,25 +189,23 @@ transform:translateY(0);
 
 <img src="logo.jpg">
 
-<span>SBI INTERNET</span>
+<h2>SBI INTERNET</h2>
 
 </div>
 
 <nav>
 
-<a href="#home">Home</a>
+<a href="index.html">Home</a>
 
-<a href="#gallery">Gallery</a>
-
-<a href="#package">Package</a>
-
-<a href="#payment">Payment</a>
+<a href="packages.html">Packages</a>
 
 <a href="livetv.html">Live TV</a>
 
 <a href="ftp.html">FTP</a>
 
-<a href="#contact">Contact</a>
+<a href="gallery.html">Gallery</a>
+
+<a href="contact.html">Contact</a>
 
 </nav>
 
@@ -200,22 +214,21 @@ transform:translateY(0);
 <marquee class="notice" scrollamount="8">
 
 📢 প্রিয় গ্রাহক, আমাদের সকল সম্মানিত গ্রাহকদের অবগতির জন্য জানানো যাচ্ছে যে, আপনারা আপনাদের ইন্টারনেট বিল সঠিক সময়ে নিজ দায়িত্বে পরিশোধ করুন। অন্যথায় আপনার ইন্টারনেট সংযোগ সার্ভার থেকে স্বয়ংক্রিয়ভাবে বিচ্ছিন্ন হবে। অনুগ্রহ করে বিকাশ অথবা অফিসে এসে বিল পরিশোধ করুন। 💳 bKash: 01643473915 | 📞 01643473915 / 01643473914 | ধন্যবাদ — SBI INTERNET
-
 </marquee>
 
-<section class="hero" id="home">
+<section class="hero">
 
 <div class="hero-box">
 
-<h1>SBI INTERNET</h1>
+<h1>Welcome to SBI INTERNET</h1>
 
 <p>
 
-Fast • Stable • Reliable Broadband Internet Service
+High Speed Internet • IPTV • FTP • 24/7 Support
 
 </p>
 
-<a href="#package" class="btn">
+<a href="#packages" class="btn">
 
 🚀 View Packages
 
@@ -223,73 +236,262 @@ Fast • Stable • Reliable Broadband Internet Service
 
 </div>
 
-</section><!-- ===================== GALLERY ===================== -->
+</section><!-- ================= GALLERY ================= -->
 
-<section id="gallery" style="padding:70px 20px;">
+<section id="gallery" style="padding:80px 20px;">
 
-<h2 style="text-align:center;font-size:42px;color:#00E5FF;margin-bottom:40px;">
-
+<h2 style="text-align:center;font-size:45px;color:#00E5FF;">
 🖼️ Gallery
-
 </h2>
 
-<div style="max-width:1100px;margin:auto;">
+<div class="grid">
 
-<img id="slider"
+<div class="card">
+<img src="gallery.jpg" width="100%" style="border-radius:15px;">
+<h3>Fiber Internet</h3>
+<p>Ultra Fast & Reliable Internet Service</p>
+</div>
 
-src="gallery.jpg"
+<div class="card">
+<img src="sofa.png" width="100%" style="border-radius:15px;">
+<h3>Premium Wi-Fi</h3>
+<p>Unlimited Streaming & Gaming</p>
+</div>
 
-style="width:100%;height:520px;object-fit:cover;border-radius:25px;
-box-shadow:0 0 30px cyan;transition:.6s;">
+<div class="card">
+<img src="support.jpg" width="100%" style="border-radius:15px;">
+<h3>24/7 Support</h3>
+<p>Always Ready to Help You</p>
+</div>
 
 </div>
 
 </section>
 
-<!-- ===================== COUNTER ===================== -->
+<style>
 
-<section style="padding:60px 20px;">
+.grid{
 
-<h2 style="text-align:center;font-size:40px;color:#00E5FF;">
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+padding:30px;
 
-📊 SBI INTERNET Statistics
+}
+
+.card{
+
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(20px);
+padding:25px;
+border-radius:20px;
+text-align:center;
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+box-shadow:0 0 30px cyan;
+
+}
+
+.card img{
+
+transition:.4s;
+
+}
+
+.card img:hover{
+
+transform:scale(1.05);
+
+}
+
+</style><!-- ================= PAYMENT ================= -->
+
+<section id="payment" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:45px;color:#00E5FF;">
+💳 Pay Internet Bill
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>bKash</h2>
+
+<h1>01643473915</h1>
+
+<p>Send Money Only</p>
+
+<a href="#" class="btn">Pay Now</a>
+
+</div>
+
+<div class="card">
+
+<h2>Nagad</h2>
+
+<h1>01643473915</h1>
+
+<p>Coming Soon</p>
+
+<a href="#" class="btn">Coming Soon</a>
+
+</div>
+
+<div class="card">
+
+<h2>Rocket</h2>
+
+<h1>01643473915</h1>
+
+<p>Coming Soon</p>
+
+<a href="#" class="btn">Coming Soon</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= COVERAGE ================= -->
+
+<section style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:45px;color:#00E5FF;">
+📍 Coverage Area
+</h2>
+
+<div class="card">
+
+<h3>We Provide Internet Service In</h3>
+
+<p>
+
+✅ Mirpur-10
+
+✅ Kazipara
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= REVIEWS ================= -->
+
+<section style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:45px;color:#00E5FF;">
+⭐ Customer Reviews
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+Very Fast Internet & Good Support.
+
+</p>
+
+</div>
+
+<div class="card">
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+<div class="card">
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+</div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer style="background:#000;padding:40px;text-align:center;">
+
+<h2 style="color:#00E5FF;">
+
+SBI INTERNET
 
 </h2>
 
-<div style="display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:25px;
-margin-top:40px;">
+<p>
 
-<div class="hero-box">
+© 2026 SBI INTERNET | All Rights Reserved
 
-<h1 id="customer">0</h1>
+</p>
 
-<p>Happy Customers</p>
+</footer>
+
+</body>
+
+</html><!-- ================= AI ASSISTANT ================= -->
+
+<section id="ai" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🤖 SBI AI Assistant
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Need Help?</h3>
+
+<p>Our Smart AI Assistant is ready to help you 24/7.</p>
+
+<input type="text" id="question"
+placeholder="Type your question..."
+style="width:100%;padding:15px;border:none;border-radius:10px;margin-top:15px;">
+
+<br><br>
+
+<button class="btn" onclick="askAI()">
+🤖 Ask AI
+</button>
+
+<p id="answer"
+style="margin-top:20px;font-size:18px;color:#00E5FF;">
+</p>
 
 </div>
 
-<div class="hero-box">
+<div class="card">
 
-<h1>24/7</h1>
+<h3>💬 Quick Support</h3>
 
-<p>Customer Support</p>
+<p>WhatsApp Support Available 24/7</p>
 
-</div>
+<a href="https://wa.me/8801643473915"
+class="btn" target="_blank">
 
-<div class="hero-box">
+WhatsApp Now
 
-<h1>99.9%</h1>
+</a>
 
-<p>Server Uptime</p>
+<br><br>
 
-</div>
+<a href="tel:01643473915"
+class="btn">
 
-<div class="hero-box">
+Call Now
 
-<h1>200 Mbps</h1>
-
-<p>Maximum Speed</p>
+</a>
 
 </div>
 
@@ -299,10 +501,1922 @@ margin-top:40px;">
 
 <script>
 
-const images=[
-"gallery.jpg",
-"background.jpg",
-"sofa.jpg"
+function askAI(){
+
+let q=document.getElementById("question").value.toLowerCase();
+
+let ans="Please contact SBI INTERNET Support.";
+
+if(q.includes("bill")){
+
+ans="Pay your bill via bKash: 01643473915";
+
+}
+
+else if(q.includes("package")){
+
+ans="Our packages start from ৳500/month.";
+
+}
+
+else if(q.includes("wifi")){
+
+ans="Restart your router. If the issue remains, call our support.";
+
+}
+
+else if(q.includes("contact")){
+
+ans="Call: 01643473915 or 01643473914";
+
+}
+
+else if(q.includes("live tv")){
+
+ans="Click the Live TV menu from the navigation bar.";
+
+}
+
+document.getElementById("answer").innerHTML=ans;
+
+}
+
+</script><!-- ================= WEATHER & CLOCK ================= -->
+
+<section id="weather" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🌤️ Weather & Time
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>🌡️ Temperature</h2>
+
+<h1 id="temp">30°C</h1>
+
+<p>Mirpur, Dhaka</p>
+
+</div>
+
+<div class="card">
+
+<h2>💧 Humidity</h2>
+
+<h1>68%</h1>
+
+<p>Current Humidity</p>
+
+</div>
+
+<div class="card">
+
+<h2>💨 Wind Speed</h2>
+
+<h1>12 km/h</h1>
+
+<p>Today's Wind</p>
+
+</div>
+
+<div class="card">
+
+<h2>🕒 Live Time</h2>
+
+<h1 id="clock"></h1>
+
+<p>Bangladesh Standard Time</p>
+
+</div>
+
+<div class="card">
+
+<h2>📅 Today's Date</h2>
+
+<h3 id="todayDate"></h3>
+
+</div>
+
+<div class="card">
+
+<h2>🌅 Sunrise / Sunset</h2>
+
+<p>🌅 5:20 AM</p>
+
+<p>🌇 6:48 PM</p>
+
+</div>
+
+</div>
+
+</section>
+
+<script>
+
+function updateClock(){
+
+const now=new Date();
+
+document.getElementById("clock").innerHTML=
+now.toLocaleTimeString("en-GB",{
+timeZone:"Asia/Dhaka"
+});
+
+document.getElementById("todayDate").innerHTML=
+now.toLocaleDateString("en-GB",{
+weekday:"long",
+day:"numeric",
+month:"long",
+year:"numeric",
+timeZone:"Asia/Dhaka"
+});
+
+}
+
+setInterval(updateClock,1000);
+
+updateClock();
+
+</script><!-- ================= ISLAMIC SECTION ================= -->
+
+<section id="islamic" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🕌 Islamic Corner
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>🕌 Prayer Times</h2>
+
+<p>🌅 Fajr : 4:05 AM</p>
+
+<p>☀️ Dhuhr : 12:05 PM</p>
+
+<p>🌤 Asr : 4:35 PM</p>
+
+<p>🌇 Maghrib : 6:49 PM</p>
+
+<p>🌙 Isha : 8:08 PM</p>
+
+</div>
+
+<div class="card">
+
+<h2>📅 Hijri Date</h2>
+
+<h3 id="hijriDate">
+
+01 Muharram 1448 AH
+
+</h3>
+
+<p>Islamic Calendar</p>
+
+</div>
+
+<div class="card">
+
+<h2>🧭 Qibla Direction</h2>
+
+<h1>🕋 277° West</h1>
+
+<p>Direction from Bangladesh</p>
+
+</div>
+
+<div class="card">
+
+<h2>📖 Daily Quran</h2>
+
+<p>
+
+"Indeed, Allah is with the patient."
+
+</p>
+
+<p>
+
+— Surah Al-Baqarah (2:153)
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🤲 Daily Dua</h2>
+
+<p>
+
+رَبِّ زِدْنِي عِلْمًا
+
+</p>
+
+<p>
+
+"My Lord, increase me in knowledge."
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🕌 Jummah Reminder</h2>
+
+<p>
+
+Remember to recite Surah Al-Kahf every Friday.
+
+</p>
+
+</div>
+
+</div>
+
+</section><!-- ================= WEBSITE STATISTICS ================= -->
+
+<section id="statistics" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+📊 SBI INTERNET Statistics
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>👥 Total Customers</h2>
+
+<h1 id="customers">0</h1>
+
+<p>Happy Customers</p>
+
+</div>
+
+<div class="card">
+
+<h2>🌐 Active Connections</h2>
+
+<h1 id="connections">0</h1>
+
+<p>Running Connections</p>
+
+</div>
+
+<div class="card">
+
+<h2>📡 Network Uptime</h2>
+
+<h1>99.9%</h1>
+
+<p>Reliable Service</p>
+
+</div>
+
+<div class="card">
+
+<h2>⭐ Customer Rating</h2>
+
+<h1>4.9/5</h1>
+
+<p>Based On Reviews</p>
+
+</div>
+
+<div class="card">
+
+<h2>🏆 Experience</h2>
+
+<h1>10+ Years</h1>
+
+<p>Trusted ISP</p>
+
+</div>
+
+<div class="card">
+
+<h2>👀 Website Visitors</h2>
+
+<h1 id="visitors">0</h1>
+
+<p>Today's Visitors</p>
+
+</div>
+
+</div>
+
+</section>
+
+<script>
+
+let customer=0;
+let connection=0;
+let visitor=0;
+
+let counter=setInterval(function(){
+
+if(customer<5000){
+customer+=25;
+document.getElementById("customers").innerHTML=customer+"+";
+}
+
+if(connection<1800){
+connection+=10;
+document.getElementById("connections").innerHTML=connection+"+";
+}
+
+if(visitor<15000){
+visitor+=50;
+document.getElementById("visitors").innerHTML=visitor+"+";
+}
+
+if(customer>=5000 && connection>=1800 && visitor>=15000){
+
+clearInterval(counter);
+
+}
+
+},20);
+
+</script><!-- ================= COVERAGE CHECKER ================= -->
+
+<section id="coverage" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+📍 Coverage Checker
+</h2>
+
+<div class="card" style="max-width:700px;margin:auto;">
+
+<h3>Check SBI INTERNET Availability</h3>
+
+<p>Enter your area name:</p>
+
+<input type="text"
+id="area"
+placeholder="Example: Mirpur"
+style="width:100%;padding:15px;border:none;border-radius:10px;font-size:18px;">
+
+<br><br>
+
+<button class="btn" onclick="checkCoverage()">
+🔍 Check Now
+</button>
+
+<h3 id="result" style="margin-top:20px;color:#00E5FF;"></h3>
+
+</div>
+
+</section>
+
+<!-- ================= NEW CONNECTION ================= -->
+
+<section style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🏠 New Connection Request
+</h2>
+
+<div class="card" style="max-width:800px;margin:auto;">
+
+<input type="text"
+placeholder="Full Name"
+style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<input type="text"
+placeholder="Mobile Number"
+style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<input type="text"
+placeholder="Address"
+style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<select style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
+
+<option>Select Package</option>
+<option>Bronze - ৳500</option>
+<option>Silver - ৳800</option>
+<option>Gold - ৳1200</option>
+
+</select>
+
+<button class="btn">
+📨 Submit Request
+</button>
+
+</div>
+
+</section>
+
+<script>
+
+function checkCoverage(){
+
+let area=document.getElementById("area").value.toLowerCase();
+
+let available=[
+"mirpur",
+"mirpur 1",
+"mirpur 2",
+"mirpur 10",
+"kazipara",
+"shewrapara",
+"agargaon"
+];
+
+if(available.includes(area)){
+
+document.getElementById("result").innerHTML=
+"✅ Great News! SBI INTERNET is available in your area.";
+
+}else{
+
+document.getElementById("result").innerHTML=
+"❌ Sorry! Service is not available yet. Please contact us.";
+
+}
+
+}
+
+</script><!-- ================= PAYMENT CENTER ================= -->
+
+<section id="payment-center" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+💳 Smart Payment Center
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>📱 bKash</h2>
+
+<img src="bkashqr.png"
+style="width:220px;border-radius:15px;">
+
+<p><b>Number:</b> 01643473915</p>
+
+<a class="btn" href="#">Pay Now</a>
+
+</div>
+
+<div class="card">
+
+<h2>💜 Nagad</h2>
+
+<img src="nagadqr.png"
+style="width:220px;border-radius:15px;">
+
+<p><b>Number:</b> 01643473915</p>
+
+<a class="btn" href="#">Pay Now</a>
+
+</div>
+
+<div class="card">
+
+<h2>🚀 Rocket</h2>
+
+<img src="rocketqr.png"
+style="width:220px;border-radius:15px;">
+
+<p><b>Number:</b> 01643473915</p>
+
+<a class="btn" href="#">Pay Now</a>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="card" style="max-width:800px;margin:auto;">
+
+<h2>📄 Payment Information</h2>
+
+<input
+type="text"
+placeholder="Your Name"
+style="width:100%;padding:15px;margin:10px 0;border-radius:10px;border:none;">
+
+<input
+type="text"
+placeholder="Transaction ID"
+style="width:100%;padding:15px;margin:10px 0;border-radius:10px;border:none;">
+
+<input
+type="number"
+placeholder="Amount"
+style="width:100%;padding:15px;margin:10px 0;border-radius:10px;border:none;">
+
+<input
+type="file"
+style="width:100%;padding:15px;margin:10px 0;">
+
+<button class="btn">
+
+✅ Submit Payment
+
+</button>
+
+</div>
+
+</section><!-- ================= THEME & LANGUAGE ================= -->
+
+<section id="settings" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+⚙️ Website Settings
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>🌙 Theme Mode</h2>
+
+<p>Switch between Dark & Light Mode.</p>
+
+<button class="btn" onclick="toggleTheme()">
+🌙 / ☀️ Change Theme
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>🌍 Language</h2>
+
+<p>Select your preferred language.</p>
+
+<select id="language"
+style="width:100%;padding:15px;border:none;border-radius:10px;">
+
+<option>English</option>
+<option>বাংলা</option>
+
+</select>
+
+</div>
+
+<div class="card">
+
+<h2>📢 Latest Notice</h2>
+
+<marquee behavior="scroll" direction="left">
+
+🎉 Welcome to SBI INTERNET | New Customer Offer Available | 24/7 Customer Support | High Speed Internet Service
+
+</marquee>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= POPUP OFFER ================= -->
+
+<div id="offerPopup"
+style="display:none;
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#111;
+color:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 0 30px cyan;
+z-index:9999;
+max-width:400px;
+text-align:center;">
+
+<h2>🎁 Special Offer</h2>
+
+<p>
+
+🔥 New customers get FREE Installation this month!
+
+</p>
+
+<button class="btn" onclick="closeOffer()">
+
+Close
+
+</button>
+
+</div>
+
+<script>
+
+function toggleTheme(){
+
+if(document.body.style.background=="white"){
+
+document.body.style.background="#08131f";
+document.body.style.color="white";
+
+}else{
+
+document.body.style.background="white";
+document.body.style.color="black";
+
+}
+
+}
+
+setTimeout(function(){
+
+document.getElementById("offerPopup").style.display="block";
+
+},3000);
+
+function closeOffer(){
+
+document.getElementById("offerPopup").style.display="none";
+
+}
+
+</script><!-- ================= FLOATING BUTTONS ================= -->
+
+<!-- WhatsApp -->
+<a href="https://wa.me/8801643473915"
+class="floating whatsapp"
+target="_blank">
+💬
+</a>
+
+<!-- Call -->
+<a href="tel:01643473915"
+class="floating call">
+📞
+</a>
+
+<!-- Messenger -->
+<a href="https://m.me/YOUR_FACEBOOK_PAGE"
+class="floating messenger"
+target="_blank">
+📘
+</a>
+
+<!-- Scroll Top -->
+<button onclick="topFunction()"
+id="topBtn">
+⬆️
+</button>
+
+<style>
+
+.floating{
+
+position:fixed;
+right:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+text-decoration:none;
+color:white;
+box-shadow:0 0 20px cyan;
+z-index:999;
+
+}
+
+.whatsapp{
+
+bottom:230px;
+background:#25D366;
+
+}
+
+.call{
+
+bottom:160px;
+background:#0d6efd;
+
+}
+
+.messenger{
+
+bottom:90px;
+background:#0084FF;
+
+}
+
+#topBtn{
+
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+border:none;
+border-radius:50%;
+background:#00E5FF;
+color:black;
+font-size:25px;
+cursor:pointer;
+display:none;
+box-shadow:0 0 20px cyan;
+z-index:999;
+
+}
+
+.floating:hover,
+#topBtn:hover{
+
+transform:scale(1.1);
+transition:.3s;
+
+}
+
+</style>
+
+<script>
+
+let topButton=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+if(document.documentElement.scrollTop>300){
+
+topButton.style.display="block";
+
+}else{
+
+topButton.style.display="none";
+
+}
+
+};
+
+function topFunction(){
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+}
+
+</script>
+
+<!-- ================= END FLOATING BUTTONS ================= -->https://m.me/YOUR_FACEBOOK_PAGE<!-- ================= LOADING SCREEN ================= -->
+
+<div id="loader">
+
+<div class="loader-box">
+
+<img src="logo.png" width="120">
+
+<h2>SBI INTERNET</h2>
+
+<p>Loading Please Wait...</p>
+
+<div class="loading-bar">
+
+<div class="loading-fill"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= MUSIC PLAYER ================= -->
+
+<div id="musicPlayer">
+
+<button onclick="toggleMusic()" class="musicBtn">
+
+🎵 Music
+
+</button>
+
+<audio id="bgMusic" loop>
+
+<source src="music.mp3" type="audio/mpeg">
+
+</audio>
+
+</div>
+
+<style>
+
+#loader{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:#08131f;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:99999;
+
+flex-direction:column;
+
+}
+
+.loader-box{
+
+text-align:center;
+
+color:white;
+
+}
+
+.loading-bar{
+
+width:250px;
+
+height:10px;
+
+background:#333;
+
+border-radius:20px;
+
+margin-top:20px;
+
+overflow:hidden;
+
+}
+
+.loading-fill{
+
+height:100%;
+
+width:0%;
+
+background:#00E5FF;
+
+animation:loading 3s linear forwards;
+
+}
+
+@keyframes loading{
+
+100%{
+
+width:100%;
+
+}
+
+}
+
+#musicPlayer{
+
+position:fixed;
+
+left:20px;
+
+bottom:20px;
+
+z-index:999;
+
+}
+
+.musicBtn{
+
+padding:15px 25px;
+
+border:none;
+
+border-radius:30px;
+
+background:#00E5FF;
+
+font-size:18px;
+
+cursor:pointer;
+
+box-shadow:0 0 20px cyan;
+
+}
+
+</style>
+
+<script>
+
+window.onload=function(){
+
+setTimeout(function(){
+
+document.getElementById("loader").style.display="none";
+
+},3000);
+
+}
+
+let music=document.getElementById("bgMusic");
+
+function toggleMusic(){
+
+if(music.paused){
+
+music.play();
+
+}else{
+
+music.pause();
+
+}
+
+}
+
+</script><!-- ================= SMART TOOLS ================= -->
+
+<section id="smart-tools" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🚀 Smart Tools
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>🌐 Internet Status</h2>
+
+<h1 id="internetStatus" style="color:lime;">
+🟢 Online
+</h1>
+
+<p>Your network is connected.</p>
+
+</div>
+
+<div class="card">
+
+<h2>🔋 Device Battery</h2>
+
+<h1 id="batteryLevel">Loading...</h1>
+
+<p>Battery Status</p>
+
+</div>
+
+<div class="card">
+
+<h2>📶 Network Type</h2>
+
+<h1 id="networkType">Detecting...</h1>
+
+<p>Connection Information</p>
+
+</div>
+
+<div class="card">
+
+<h2>🖥️ Screen Resolution</h2>
+
+<h1 id="screenSize"></h1>
+
+<p>Your Device Screen</p>
+
+</div>
+
+<div class="card">
+
+<h2>🌍 Public IP</h2>
+
+<h1 id="ipAddress">Loading...</h1>
+
+<p>Your Internet Address</p>
+
+</div>
+
+<div class="card">
+
+<h2>⏱️ Page Load Time</h2>
+
+<h1 id="loadTime"></h1>
+
+<p>Website Performance</p>
+
+</div>
+
+</div>
+
+</section>
+
+<script>
+
+// Online / Offline
+
+function updateStatus(){
+
+let s=document.getElementById("internetStatus");
+
+if(navigator.onLine){
+
+s.innerHTML="🟢 Online";
+
+s.style.color="lime";
+
+}else{
+
+s.innerHTML="🔴 Offline";
+
+s.style.color="red";
+
+}
+
+}
+
+window.addEventListener("online",updateStatus);
+
+window.addEventListener("offline",updateStatus);
+
+updateStatus();
+
+// Battery
+
+if(navigator.getBattery){
+
+navigator.getBattery().then(function(b){
+
+document.getElementById("batteryLevel").innerHTML=
+
+Math.round(b.level*100)+"%";
+
+});
+
+}
+
+// Network
+
+if(navigator.connection){
+
+document.getElementById("networkType").innerHTML=
+
+navigator.connection.effectiveType;
+
+}
+
+// Screen
+
+document.getElementById("screenSize").innerHTML=
+
+screen.width+" × "+screen.height;
+
+// Load Time
+
+window.addEventListener("load",function(){
+
+document.getElementById("loadTime").innerHTML=
+
+performance.now().toFixed(0)+" ms";
+
+});
+
+// Public IP
+
+fetch("https://api.ipify.org?format=json")
+
+.then(r=>r.json())
+
+.then(d=>{
+
+document.getElementById("ipAddress").innerHTML=d.ip;
+
+});
+
+</script><!-- ================= AI CHAT WIDGET ================= -->
+
+<div id="aiChatBtn" onclick="toggleChat()">
+🤖
+</div>
+
+<div id="aiChatBox">
+
+<div class="chatHeader">
+
+🤖 SBI AI Assistant
+
+<span onclick="toggleChat()">✖</span>
+
+</div>
+
+<div id="chatBody">
+
+<p><b>AI:</b> Welcome to SBI INTERNET 👋</p>
+
+</div>
+
+<div class="chatInput">
+
+<input type="text" id="userMsg"
+placeholder="Type your message...">
+
+<button onclick="sendMsg()">Send</button>
+
+</div>
+
+</div>
+
+<style>
+
+#aiChatBtn{
+
+position:fixed;
+
+left:20px;
+
+bottom:100px;
+
+width:65px;
+
+height:65px;
+
+background:#00E5FF;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:30px;
+
+cursor:pointer;
+
+box-shadow:0 0 20px cyan;
+
+z-index:9999;
+
+}
+
+#aiChatBox{
+
+position:fixed;
+
+left:20px;
+
+bottom:180px;
+
+width:330px;
+
+background:#111;
+
+border-radius:15px;
+
+display:none;
+
+overflow:hidden;
+
+box-shadow:0 0 20px cyan;
+
+z-index:9999;
+
+}
+
+.chatHeader{
+
+background:#00E5FF;
+
+color:#000;
+
+padding:15px;
+
+display:flex;
+
+justify-content:space-between;
+
+font-weight:bold;
+
+}
+
+#chatBody{
+
+height:250px;
+
+overflow:auto;
+
+padding:15px;
+
+color:white;
+
+}
+
+.chatInput{
+
+display:flex;
+
+}
+
+.chatInput input{
+
+flex:1;
+
+padding:12px;
+
+border:none;
+
+outline:none;
+
+}
+
+.chatInput button{
+
+background:#00E5FF;
+
+border:none;
+
+padding:12px 18px;
+
+cursor:pointer;
+
+font-weight:bold;
+
+}
+
+</style>
+
+<script>
+
+function toggleChat(){
+
+let box=document.getElementById("aiChatBox");
+
+box.style.display=(box.style.display=="block")?"none":"block";
+
+}
+
+function sendMsg(){
+
+let input=document.getElementById("userMsg");
+
+let msg=input.value.trim();
+
+if(msg=="") return;
+
+let body=document.getElementById("chatBody");
+
+body.innerHTML+="<p><b>You:</b> "+msg+"</p>";
+
+let reply="Please contact SBI INTERNET Support.";
+
+let q=msg.toLowerCase();
+
+if(q.includes("bill"))
+reply="💳 Pay your bill via bKash: 01643473915";
+
+else if(q.includes("package"))
+reply="📦 Packages start from ৳500/month.";
+
+else if(q.includes("support"))
+reply="📞 Call: 01643473915";
+
+else if(q.includes("live"))
+reply="📺 Open the Live TV page.";
+
+else if(q.includes("wifi"))
+reply="📡 Restart your router. If the problem continues, contact support.";
+
+body.innerHTML+="<p><b>AI:</b> "+reply+"</p>";
+
+body.scrollTop=body.scrollHeight;
+
+input.value="";
+
+}
+
+</script>
+
+<!-- ================= BROWSER NOTIFICATION ================= -->
+
+<script>
+
+setTimeout(function(){
+
+if("Notification" in window){
+
+Notification.requestPermission().then(function(permission){
+
+if(permission==="granted"){
+
+new Notification("Welcome to SBI INTERNET 🎉",{
+
+body:"Enjoy High Speed Internet Service."
+
+});
+
+}
+
+});
+
+}
+
+},5000);
+
+</script><!-- ================= LANGUAGE & EFFECTS ================= -->
+
+<section id="premium-tools" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🌍 Premium Website Tools
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>🌍 Translate Website</h2>
+
+<div id="google_translate_element"></div>
+
+</div>
+
+<div class="card">
+
+<h2>🖱️ Mouse Glow</h2>
+
+<p>Move your mouse to see glowing effect.</p>
+
+</div>
+
+<div class="card">
+
+<h2>🎉 Welcome Effect</h2>
+
+<p>Beautiful animation when users visit the website.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Google Translate -->
+
+<script>
+
+function googleTranslateElementInit(){
+
+new google.translate.TranslateElement({
+
+pageLanguage:'en',
+
+includedLanguages:'en,bn,hi,ar',
+
+layout:google.translate.TranslateElement.InlineLayout.SIMPLE
+
+},'google_translate_element');
+
+}
+
+</script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!-- Mouse Glow -->
+
+<div id="cursorGlow"></div>
+
+<style>
+
+#cursorGlow{
+
+position:fixed;
+
+width:30px;
+
+height:30px;
+
+border-radius:50%;
+
+background:#00E5FF;
+
+pointer-events:none;
+
+filter:blur(12px);
+
+z-index:99999;
+
+transition:.05s;
+
+}
+
+</style>
+
+<script>
+
+document.addEventListener("mousemove",function(e){
+
+let glow=document.getElementById("cursorGlow");
+
+glow.style.left=e.clientX-15+"px";
+
+glow.style.top=e.clientY-15+"px";
+
+});
+
+</script>
+
+<!-- Welcome Popup -->
+
+<script>
+
+window.addEventListener("load",function(){
+
+setTimeout(function(){
+
+alert("🎉 Welcome to SBI INTERNET!\n\nEnjoy High Speed Internet Service.");
+
+},1500);
+
+});
+
+</script><!-- ================= PREMIUM EFFECTS ================= -->
+
+<section id="premium-effects" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+✨ Premium Visual Effects
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h2>🌌 Galaxy Background</h2>
+<p>Beautiful Animated Space Theme</p>
+</div>
+
+<div class="card">
+<h2>✨ Floating Icons</h2>
+<p>Icons Float Around Website</p>
+</div>
+
+<div class="card">
+<h2>💎 Glass Animation</h2>
+<p>Premium Glassmorphism Effect</p>
+</div>
+
+<div class="card">
+<h2>🌠 Shooting Stars</h2>
+<p>Animated Night Sky</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Floating Icons -->
+
+<div class="floating-icon">🌐</div>
+<div class="floating-icon">📡</div>
+<div class="floating-icon">💻</div>
+<div class="floating-icon">📶</div>
+
+<style>
+
+.floating-icon{
+
+position:fixed;
+font-size:30px;
+animation:floatIcon 12s linear infinite;
+opacity:.2;
+pointer-events:none;
+z-index:1;
+
+}
+
+.floating-icon:nth-child(1){
+left:10%;
+animation-delay:0s;
+}
+
+.floating-icon:nth-child(2){
+left:35%;
+animation-delay:3s;
+}
+
+.floating-icon:nth-child(3){
+left:65%;
+animation-delay:6s;
+}
+
+.floating-icon:nth-child(4){
+left:90%;
+animation-delay:9s;
+}
+
+@keyframes floatIcon{
+
+0%{
+
+top:110%;
+
+transform:rotate(0deg);
+
+}
+
+100%{
+
+top:-10%;
+
+transform:rotate(360deg);
+
+}
+
+}
+
+.card{
+
+animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+</style>
+
+<script>
+
+// Random Glow Effect
+
+setInterval(function(){
+
+document.body.style.boxShadow="inset 0 0 80px rgba(0,229,255,"+(Math.random()*0.25)+")";
+
+},1500);
+
+</script><!-- ================= SMART FEATURES ================= -->
+
+<section id="smartFeatures" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🚀 Smart Features
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>🎤 Voice Search</h2>
+
+<p>Search by speaking.</p>
+
+<button class="btn" onclick="startVoice()">
+
+🎙️ Start Voice Search
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>📱 Share Website</h2>
+
+<p>Share SBI INTERNET with friends.</p>
+
+<button class="btn" onclick="shareSite()">
+
+📤 Share
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>⭐ Add to Favorites</h2>
+
+<p>Bookmark this website.</p>
+
+<button class="btn" onclick="bookmarkSite()">
+
+⭐ Bookmark
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>📥 Download App</h2>
+
+<p>Coming Soon</p>
+
+<a href="#" class="btn">
+
+📲 Download
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>🎁 Lucky Offer</h2>
+
+<p>Click below to get today's offer.</p>
+
+<button class="btn" onclick="offer()">
+
+🎉 Try Your Luck
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>🏆 Achievement</h2>
+
+<h1>10,000+</h1>
+
+<p>Happy Customers</p>
+
+</div>
+
+</div>
+
+</section>
+
+<script>
+
+function startVoice(){
+
+if('webkitSpeechRecognition' in window){
+
+let recognition=new webkitSpeechRecognition();
+
+recognition.lang='en-US';
+
+recognition.start();
+
+recognition.onresult=function(e){
+
+alert("You said: "+e.results[0][0].transcript);
+
+};
+
+}else{
+
+alert("Voice Search is not supported.");
+
+}
+
+}
+
+async function shareSite(){
+
+if(navigator.share){
+
+await navigator.share({
+
+title:"SBI INTERNET",
+
+text:"Visit SBI INTERNET",
+
+url:location.href
+
+});
+
+}else{
+
+alert("Share feature is not supported.");
+
+}
+
+}
+
+function bookmarkSite(){
+
+alert("Press Ctrl + D (PC) or use your browser menu to bookmark this website.");
+
+}
+
+function offer(){
+
+let offers=[
+
+"🎁 Free Installation",
+
+"💸 10% Discount",
+
+"📶 Speed Upgrade",
+
+"🎉 Better Luck Next Time"
+
+];
+
+let random=Math.floor(Math.random()*offers.length);
+
+alert(offers[random]);
+
+}
+
+</script><!-- ================= DOWNLOAD CENTER ================= -->
+
+<section id="download-center" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+📥 Download Center
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>📱 Android Apps</h2>
+
+<p>Useful Apps For SBI INTERNET Customers</p>
+
+<a href="#" class="btn">Download</a>
+
+</div>
+
+<div class="card">
+
+<h2>💻 Windows Software</h2>
+
+<p>Remote Support & Utility Software</p>
+
+<a href="#" class="btn">Download</a>
+
+</div>
+
+<div class="card">
+
+<h2>📄 User Guide</h2>
+
+<p>Internet Setup & Router Configuration</p>
+
+<a href="#" class="btn">Open Guide</a>
+
+</div>
+
+<div class="card">
+
+<h2>📺 IPTV Playlist</h2>
+
+<p>Latest IPTV Playlist Download</p>
+
+<a href="#" class="btn">Download</a>
+
+</div>
+
+<div class="card">
+
+<h2>⚙ Router Setup</h2>
+
+<p>PPPoE & Wi-Fi Configuration</p>
+
+<a href="#" class="btn">View</a>
+
+</div>
+
+<div class="card">
+
+<h2>🔄 Speed Test</h2>
+
+<p>Check Your Internet Speed</p>
+
+<a href="https://fast.com" target="_blank" class="btn">
+
+Run Speed Test
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= QUICK LINKS ================= -->
+
+<section style="padding:60px 20px;">
+
+<h2 style="text-align:center;color:#00E5FF;">
+⚡ Quick Access
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<a href="livetv.html" class="btn">📺 Live TV</a>
+</div>
+
+<div class="card">
+<a href="ftp.html" class="btn">📁 FTP Server</a>
+</div>
+
+<div class="card">
+<a href="#payment-center" class="btn">💳 Pay Bill</a>
+</div>
+
+<div class="card">
+<a href="#contact" class="btn">📞 Contact Us</a>
+</div>
+
+</div>
+
+</section><!-- ================= NEWS & OFFERS ================= -->
+
+<section id="news" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+📰 Latest News & Offers
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h2>🎉 New Customer Offer</h2>
+<p>🔥 Free Installation for all new connections this month.</p>
+<span style="color:#00E5FF;">Valid Until: 31 December</span>
+</div>
+
+<div class="card">
+<h2>⚡ Speed Upgrade</h2>
+<p>Existing customers can upgrade their package with special discounts.</p>
+<span style="color:#00E5FF;">Available Now</span>
+</div>
+
+<div class="card">
+<h2>📢 Maintenance Notice</h2>
+<p>No scheduled maintenance this week. All services are running normally.</p>
+<span style="color:lime;">✅ Network Stable</span>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= IMAGE SLIDER ================= -->
+
+<section style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+📸 Featured Gallery
+</h2>
+
+<div style="max-width:900px;margin:auto;">
+
+<img id="slider"
+src="gallery1.jpg"
+style="width:100%;border-radius:20px;box-shadow:0 0 25px cyan;">
+
+</div>
+
+</section>
+
+<script>
+
+let images=[
+"gallery1.jpg",
+"gallery2.jpg",
+"gallery3.jpg",
+"gallery4.jpg",
+"gallery5.jpg"
 ];
 
 let i=0;
@@ -321,719 +2435,425 @@ document.getElementById("slider").src=images[i];
 
 },3000);
 
-let c=0;
+</script>
 
-setInterval(function(){
+<!-- ================= TESTIMONIALS ================= -->
 
-if(c<5000){
-
-c+=25;
-
-document.getElementById("customer").innerHTML=c+"+";
-
-}
-
-},20);
-
-</script><!-- ===================== PACKAGE SECTION ===================== -->
-
-<section id="package" style="padding:70px 20px;">
-
-<h2 style="text-align:center;font-size:42px;color:#00E5FF;margin-bottom:40px;">
-
-🚀 Internet Packages
-
-</h2>
-
-<div class="grid">
-
-<div class="card">
-<h2>20 Mbps</h2>
-<h3>৳500 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>30 Mbps</h2>
-<h3>৳600 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>40 Mbps</h2>
-<h3>৳800 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>60 Mbps</h2>
-<h3>৳1000 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>80 Mbps</h2>
-<h3>৳1500 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>90 Mbps</h2>
-<h3>৳1800 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>100 Mbps</h2>
-<h3>৳2000 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>120 Mbps</h2>
-<h3>৳2400 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>135 Mbps</h2>
-<h3>৳2700 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>150 Mbps</h2>
-<h3>৳3000 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>165 Mbps</h2>
-<h3>৳3300 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-<div class="card">
-<h2>200 Mbps</h2>
-<h3>৳4000 / Month</h3>
-<p>Unlimited Internet</p>
-<a href="#payment" class="btn">Buy Now</a>
-</div>
-
-</div>
-
-</section>
-
-<style>
-
-.grid{
-
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:25px;
-padding:20px;
-
-}
-
-.card{
-
-background:rgba(255,255,255,.08);
-backdrop-filter:blur(18px);
-border:1px solid rgba(255,255,255,.1);
-border-radius:20px;
-padding:30px;
-text-align:center;
-transition:.4s;
-
-}
-
-.card:hover{
-
-transform:translateY(-10px) scale(1.03);
-box-shadow:0 0 30px cyan;
-
-}
-
-.card h2{
-
-font-size:32px;
-color:#00E5FF;
-
-}
-
-.card h3{
-
-margin:15px 0;
-font-size:28px;
-color:#FFD700;
-
-}
-
-.card p{
-
-margin-bottom:20px;
-color:#ddd;
-
-}
-
-</style><!-- ===================== PAYMENT SECTION ===================== -->
-
-<section id="payment" style="padding:70px 20px;">
-
-<h2 style="text-align:center;font-size:42px;color:#00E5FF;margin-bottom:40px;">
-
-💳 Payment
-
-</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h2>💳 bKash Payment</h2>
-
-<h3 style="color:#ff4fa3;">01643473915</h3>
-
-<p>Payment Method : bKash</p>
-
-<p>Reference : Customer User ID</p>
-
-<p>Send Money করে Reference-এ আপনার User ID দিন।</p>
-
-</div>
-
-<div class="card">
-
-<h2>👤 Customer Login</h2>
-
-<form>
-
-<input type="text" placeholder="Customer User ID" required
-style="width:100%;padding:14px;margin:10px 0;border:none;border-radius:10px;">
-
-<input type="password" placeholder="Password" required
-style="width:100%;padding:14px;margin:10px 0;border:none;border-radius:10px;">
-
-<button class="btn" style="width:100%;">
-Login
-</button>
-
-</form>
-
-</div>
-
-<div class="card">
-
-<h2>🖥️ Server Information</h2>
-
-<p><b>Server IP</b></p>
-
-<h3 style="color:#00E5FF;">172.20.3.1</h3>
-
-<p>Status :</p>
-
-<h3 style="color:lime;">🟢 ONLINE</h3>
-
-<p>Uptime : 99.9%</p>
-
-</div>
-
-<div class="card">
-
-<h2>☎ Contact</h2>
-
-<p>📞 01643473915</p>
-
-<p>📞 01643473914</p>
-
-<p>💬 WhatsApp : 01643473915</p>
-
-<p>📧 sbiinternet@gmail.com</p>
-
-<a href="https://wa.me/8801643473915" target="_blank" class="btn">
-
-WhatsApp Chat
-
-</a>
-
-</div>
-
-</div>
-
-</section><!-- ===================== NEW CONNECTION ===================== -->
-
-<section id="connection" style="padding:70px 20px;">
-
-<h2 style="text-align:center;font-size:42px;color:#00E5FF;margin-bottom:40px;">
-📝 New Connection
-</h2>
-
-<div class="card" style="max-width:700px;margin:auto;">
-
-<form>
-
-<input type="text" placeholder="Full Name" required
-style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
-
-<input type="text" placeholder="Mobile Number" required
-style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
-
-<input type="text" placeholder="Full Address" required
-style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
-
-<select
-style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:10px;">
-
-<option>Select Package</option>
-<option>20 Mbps - ৳500</option>
-<option>30 Mbps - ৳600</option>
-<option>40 Mbps - ৳800</option>
-<option>60 Mbps - ৳1000</option>
-<option>80 Mbps - ৳1500</option>
-<option>100 Mbps - ৳2000</option>
-
-</select>
-
-<button class="btn" style="width:100%;">
-Apply Now
-</button>
-
-</form>
-
-</div>
-
-</section>
-
-<!-- ===================== COVERAGE ===================== -->
-
-<section id="coverage" style="padding:70px 20px;">
-
-<h2 style="text-align:center;font-size:42px;color:#00E5FF;margin-bottom:40px;">
-
-📍 Coverage Area
-
-</h2>
-
-<div class="grid">
-
-<div class="card">📍 Mirpur-1</div>
-<div class="card">📍 Mirpur-2</div>
-<div class="card">📍 Mirpur-6</div>
-<div class="card">📍 Mirpur-10</div>
-<div class="card">📍 Mirpur-11</div>
-<div class="card">📍 Mirpur-12</div>
-<div class="card">📍 Mirpur-13</div>
-<div class="card">📍 Mirpur-14</div>
-
-</div>
-
-</section>
-
-<!-- ===================== REVIEWS ===================== -->
-
-<section style="padding:70px 20px;">
-
-<h2 style="text-align:center;font-size:42px;color:#00E5FF;margin-bottom:40px;">
-⭐ Customer Reviews
-</h2>
-
-<div class="grid">
-
-<div class="card">
-⭐⭐⭐⭐⭐
-<p>Very Fast Internet & Excellent Support.</p>
-</div>
-
-<div class="card">
-⭐⭐⭐⭐⭐
-<p>Best Broadband Service in Mirpur.</p>
-</div>
-
-<div class="card">
-⭐⭐⭐⭐⭐
-<p>Stable Connection & Low Ping.</p>
-</div>
-
-</div>
-
-</section>
-
-<!-- ===================== FAQ ===================== -->
-
-<section style="padding:70px 20px;">
+<section style="padding:80px 20px;">
 
 <h2 style="text-align:center;font-size:42px;color:#00E5FF;">
-❓ Frequently Asked Questions
+⭐ Customer Testimonials
 </h2>
 
-<div class="card" style="max-width:900px;margin:auto;">
+<div class="grid">
 
-<h3>💳 How can I pay my bill?</h3>
+<div class="card">
 
-<p>Pay via bKash (01643473915) and use your Customer User ID as Reference.</p>
+⭐⭐⭐⭐⭐
 
-<hr><br>
+<p>
 
-<h3>🌐 How to get a new connection?</h3>
+Excellent Internet Speed and Friendly Support.
 
-<p>Fill out the New Connection Form or call us directly.</p>
+</p>
 
-<hr><br>
+<h3>- Rahim Ahmed</h3>
 
-<h3>🛠 Support Time?</h3>
+</div>
 
-<p>24 Hours / 7 Days Customer Support Available.</p>
+<div class="card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+Best ISP in our area. Very satisfied.
+
+</p>
+
+<h3>- Karim Hossain</h3>
+
+</div>
+
+<div class="card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+Low Ping Gaming & Fast Download.
+
+</p>
+
+<h3>- Hasan Ali</h3>
+
+</div>
+
+</div>
+
+</section><!-- ================= TEAM SECTION ================= -->
+
+<section id="team" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+👨‍💼 Meet Our Team
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="team1.jpg" width="120" style="border-radius:50%;">
+<h2>CEO</h2>
+<p>SBI INTERNET</p>
+</div>
+
+<div class="card">
+<img src="team2.jpg" width="120" style="border-radius:50%;">
+<h2>Network Engineer</h2>
+<p>24/7 Network Monitoring</p>
+</div>
+
+<div class="card">
+<img src="team3.jpg" width="120" style="border-radius:50%;">
+<h2>Support Manager</h2>
+<p>Customer Support</p>
+</div>
 
 </div>
 
 </section>
 
-<!-- ===================== SERVER STATUS ===================== -->
+<!-- ================= BRANCHES ================= -->
 
-<section style="padding:70px 20px;">
+<section style="padding:80px 20px;">
 
 <h2 style="text-align:center;font-size:42px;color:#00E5FF;">
-🟢 Live Server Status
+🏢 Our Branches
 </h2>
 
-<div class="card" style="max-width:500px;margin:auto;text-align:center;">
+<div class="grid">
 
-<h1 style="color:lime;">ONLINE</h1>
+<div class="card">
+<h3>🏢 Head Office</h3>
+<p>Mirpur, Dhaka</p>
+</div>
 
-<p>Server IP : <b>172.20.3.1</b></p>
+<div class="card">
+<h3>🏢 Branch Office</h3>
+<p>Kazipara</p>
+</div>
 
-<p>Network Status : Stable</p>
-
-<p>Uptime : 99.9%</p>
+<div class="card">
+<h3>🏢 Service Point</h3>
+<p>Shewrapara</p>
+</div>
 
 </div>
 
-</section><!-- ===================== GOOGLE MAP ===================== -->
+</section>
 
-<section id="map" style="padding:70px 20px;">
+<!-- ================= GOOGLE MAP ================= -->
 
-<h2 style="text-align:center;font-size:42px;color:#00E5FF;margin-bottom:40px;">
+<section style="padding:80px 20px;">
 
-📍 Our Location
-
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+📍 Find Us
 </h2>
 
-<div class="card" style="max-width:1100px;margin:auto;">
+<div class="card">
 
 <iframe
-src="https://maps.google.com/maps?q=Mirpur,Dhaka&t=&z=13&ie=UTF8&iwloc=&output=embed"
+src="https://www.google.com/maps?q=Dhaka&output=embed"
 width="100%"
-height="400"
-style="border:0;border-radius:20px;">
+height="450"
+style="border:0;border-radius:20px;"
+loading="lazy">
 </iframe>
 
 </div>
 
 </section>
 
-<!-- ===================== CONTACT ===================== -->
+<!-- ================= ACHIEVEMENTS ================= -->
 
-<section id="contact" style="padding:70px 20px;">
+<section style="padding:80px 20px;">
 
-<h2 style="text-align:center;font-size:42px;color:#00E5FF;margin-bottom:40px;">
-
-☎ Contact Us
-
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🏆 Our Achievements
 </h2>
 
 <div class="grid">
 
 <div class="card">
-
-<h2>📞 Call</h2>
-
-<p>01643473915</p>
-
-<p>01643473914</p>
-
+<h1>10+</h1>
+<p>Years Experience</p>
 </div>
 
 <div class="card">
-
-<h2>💬 WhatsApp</h2>
-
-<p>01643473915</p>
-
-<a href="https://wa.me/8801643473915" target="_blank" class="btn">
-
-Chat Now
-
-</a>
-
+<h1>5000+</h1>
+<p>Happy Customers</p>
 </div>
 
 <div class="card">
+<h1>99.9%</h1>
+<p>Network Uptime</p>
+</div>
 
-<h2>📧 Email</h2>
-
-<p>sbiinternet@gmail.com</p>
-
+<div class="card">
+<h1>24/7</h1>
+<p>Customer Support</p>
 </div>
 
 </div>
 
 </section>
 
-<!-- Floating Buttons -->
+<!-- ================= EMERGENCY CONTACT ================= -->
 
-<a href="https://wa.me/8801643473915" class="whatsapp" target="_blank">
+<section style="padding:80px 20px;">
 
-💬
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🚨 Emergency Contact
+</h2>
+
+<div class="card">
+
+<h3>📞 Hotline: 01643473915</h3>
+
+<h3>📞 Support: 01643473914</h3>
+
+<h3>📧 Email: sbiinternet@gmail.com</h3>
+
+<a href="tel:01643473915" class="btn">
+
+📞 Call Now
 
 </a>
-
-<a href="tel:01643473915" class="call">
-
-📞
-
-</a>
-
-<a href="#" id="topBtn">
-
-⬆
-
-</a>
-
-<style>
-
-.whatsapp{
-
-position:fixed;
-
-right:20px;
-
-bottom:20px;
-
-width:60px;
-
-height:60px;
-
-background:#25D366;
-
-border-radius:50%;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-font-size:30px;
-
-text-decoration:none;
-
-color:#fff;
-
-box-shadow:0 0 20px rgba(0,0,0,.5);
-
-z-index:9999;
-
-}
-
-.call{
-
-position:fixed;
-
-right:20px;
-
-bottom:95px;
-
-width:60px;
-
-height:60px;
-
-background:#00C3FF;
-
-border-radius:50%;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-font-size:28px;
-
-text-decoration:none;
-
-color:#fff;
-
-box-shadow:0 0 20px rgba(0,0,0,.5);
-
-z-index:9999;
-
-}
-
-#topBtn{
-
-position:fixed;
-
-right:20px;
-
-bottom:170px;
-
-width:55px;
-
-height:55px;
-
-background:#ff5722;
-
-border-radius:50%;
-
-display:none;
-
-justify-content:center;
-
-align-items:center;
-
-color:#fff;
-
-text-decoration:none;
-
-font-size:24px;
-
-z-index:9999;
-
-}
-
-footer{
-
-margin-top:60px;
-
-padding:50px;
-
-background:#111827;
-
-text-align:center;
-
-}
-
-footer h2{
-
-color:#00E5FF;
-
-font-size:35px;
-
-margin-bottom:20px;
-
-}
-
-footer p{
-
-margin:10px;
-
-color:#ddd;
-
-}
-
-.social a{
-
-display:inline-block;
-
-margin:10px;
-
-padding:12px 22px;
-
-background:#00C3FF;
-
-color:#fff;
-
-text-decoration:none;
-
-border-radius:10px;
-
-transition:.3s;
-
-}
-
-.social a:hover{
-
-background:#0095ff;
-
-transform:scale(1.05);
-
-}
-
-</style>
-
-<footer>
-
-<h2>SBI INTERNET</h2>
-
-<p>High Speed Broadband Internet Service</p>
-
-<p>📞 01643473915 / 01643473914</p>
-
-<p>💳 bKash : 01643473915</p>
-
-<p>📧 sbiinternet@gmail.com</p>
-
-<div class="social">
-
-<a href="#">📘 Facebook</a>
-
-<a href="#">▶ YouTube</a>
-
-<a href="#">💬 Messenger</a>
 
 </div>
 
-<p style="margin-top:25px;">
+</section><!-- ================= EVENTS & LIVE INFO ================= -->
 
-© 2026 SBI INTERNET | All Rights Reserved.
+<section id="events" style="padding:80px 20px;">
+
+<h2 style="text-align:center;font-size:42px;color:#00E5FF;">
+🎉 Events & Live Information
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h2>📅 Event Calendar</h2>
+<input type="date"
+style="width:100%;padding:15px;border:none;border-radius:10px;">
+</div>
+
+<div class="card">
+<h2>🎂 Birthday Wishes</h2>
+<p>🎉 Happy Birthday to all SBI INTERNET customers!</p>
+</div>
+
+<div class="card">
+<h2>🎡 Lucky Spin</h2>
+<button class="btn" onclick="spinWheel()">
+🎁 Spin Now
+</button>
+</div>
+
+<div class="card">
+<h2>🌍 World Clock</h2>
+<p id="worldClock">Loading...</p>
+</div>
+
+<div class="card">
+<h2>💵 Dollar Rate</h2>
+<h3>$1 ≈ ৳122 (Update Manually)</h3>
+</div>
+
+<div class="card">
+<h2>🪙 Gold Price</h2>
+<h3>22K Gold (Update Daily)</h3>
+</div>
+
+<div class="card">
+<h2>📊 Live Dashboard</h2>
+<p>🟢 All Servers Running Normally</p>
+</div>
+
+<div class="card">
+<h2>🕌 Prayer Reminder</h2>
+<p>⏰ Next Prayer: Maghrib</p>
+</div>
+
+</div>
+
+</section>
+
+<script>
+
+function spinWheel(){
+
+const gifts=[
+"🎁 Free Installation",
+"💰 10% Discount",
+"⚡ Speed Upgrade",
+"🎉 Better Luck Next Time",
+"🎊 Free Router Setup"
+];
+
+let gift=gifts[Math.floor(Math.random()*gifts.length)];
+
+alert("Congratulations!\n\n"+gift);
+
+}
+
+function updateWorldClock(){
+
+let now=new Date();
+
+document.getElementById("worldClock").innerHTML=
+
+now.toUTCString();
+
+}
+
+setInterval(updateWorldClock,1000);
+
+updateWorldClock();
+
+</script><!-- ================= PWA INSTALL ================= -->
+
+<div id="installApp"
+style="display:none;
+position:fixed;
+bottom:20px;
+left:20px;
+background:#111;
+color:#fff;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 25px cyan;
+z-index:9999;">
+
+<h3>📲 Install SBI INTERNET</h3>
+
+<p>Add this website to your Home Screen.</p>
+
+<button id="installBtn" class="btn">
+
+Install App
+
+</button>
+
+</div>
+
+<script>
+
+let deferredPrompt;
+
+window.addEventListener("beforeinstallprompt",(e)=>{
+
+e.preventDefault();
+
+deferredPrompt=e;
+
+document.getElementById("installApp").style.display="block";
+
+});
+
+document.getElementById("installBtn").addEventListener("click",async()=>{
+
+if(deferredPrompt){
+
+deferredPrompt.prompt();
+
+await deferredPrompt.userChoice;
+
+deferredPrompt=null;
+
+document.getElementById("installApp").style.display="none";
+
+}
+
+});
+
+</script>
+
+<!-- ================= WEBSITE INFO ================= -->
+
+<section style="padding:80px 20px;">
+
+<h2 style="text-align:center;color:#00E5FF;">
+🌐 Website Information
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h2>🚀 Version</h2>
+<p>Premium V2.0</p>
+</div>
+
+<div class="card">
+<h2>⚡ Performance</h2>
+<p>Optimized HTML, CSS & JavaScript</p>
+</div>
+
+<div class="card">
+<h2>🔒 Security</h2>
+<p>HTTPS Ready & Mobile Friendly</p>
+</div>
+
+<div class="card">
+<h2>📱 Responsive</h2>
+<p>Android, iPhone & PC Supported</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FINAL FOOTER ================= -->
+
+<footer style="background:#050505;
+padding:50px 20px;
+text-align:center;
+border-top:2px solid #00E5FF;">
+
+<img src="logo.png"
+width="90"
+style="border-radius:50%;box-shadow:0 0 20px cyan;">
+
+<h2 style="margin-top:15px;color:#00E5FF;">
+
+SBI INTERNET
+
+</h2>
+
+<p>
+
+High Speed Internet • IPTV • FTP • 24/7 Customer Support
+
+</p>
+
+<br>
+
+<p>
+
+📞 01643473915 |
+📧 sbiinternet@gmail.com
+
+</p>
+
+<br>
+
+<p style="color:gray;">
+
+© 2026 SBI INTERNET. All Rights Reserved.
 
 </p>
 
 </footer>
 
-<script>
-
-let topBtn=document.getElementById("topBtn");
-
-window.onscroll=function(){
-
-if(document.documentElement.scrollTop>300){
-
-topBtn.style.display="flex";
-
-}else{
-
-topBtn.style.display="none";
-
-}
-
-}
-
-topBtn.onclick=function(){
-
-window.scrollTo({
-
-top:0,
-
-behavior:"smooth"
-
-});
-
-}
-
-</script>
-
 </body>
-
 </html>
